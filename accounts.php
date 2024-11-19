@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['count']) && is_numeric(
             }
             const users = await response.json();
             // Формирование таблицы пользователей
-            let tableHTML = '<table><tr><th>ID</th><th>Имя</th></tr>';
+            let tableHTML = '<table><tr><th>ID</th><th>Пароль</th></tr>';
             users.forEach(user => {
                 tableHTML += `<tr><td>${user.username}</td><td>${user.password}</td></tr>`;
             });
