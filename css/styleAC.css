@@ -1,0 +1,131 @@
+body {
+    font-family: 'Unbounded';
+    margin: 30px;
+    font-size: 22px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #111;
+}
+
+.gradient-text {
+    display: inline-block;
+    color: transparent;
+    background-image: linear-gradient(
+        90deg,
+        #fc87da 0%,
+        #cb94ef 36%,
+        #41e0e7 70%,
+        #28f6c2 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.twice-text {
+    color: #41e0e7;
+}
+table {
+    color: white;
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 50px;
+    border-spacing: 0;
+    text-align: center;
+}
+th, td {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    
+    background-color: #111;
+    color: transparent;
+    background-image: linear-gradient(
+        90deg,
+        #fc87da 0%,
+        #cb94ef 36%,
+        #41e0e7 70%,
+        #28f6c2 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding: 10px 20px;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+th:first-child {
+    border-top-left-radius: 20px;
+}
+th:last-child {
+    border-top-right-radius: 20px;
+    border-right: none;
+}
+td {
+    padding: 10px 20px;
+    background: transparent;
+}
+tr:last-child td:first-child {
+    border-radius: 0 0 0 20px;
+}
+tr:last-child td:last-child {
+    border-radius: 0 0 20px 0;
+}
+tr td:last-child {
+    border-right: none;
+}
+
+button {
+    font-family: 'Unbounded';
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #fc87da;
+    color: white;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    
+}
+button:hover {
+    box-shadow: 0 0 5px #fc87da,
+    0 0 25px #fc87da, 0 0 50px #fc87da,
+    0 0 100px #fc87da, 0 0 200px #fc87da;
+}
+/*.button { пробовала интересную кнопку сделать - не понравилась
+    font-family: 'Unbounded';
+    text-decoration: none;
+    font-size: 15px;
+    background-color: transparent;
+    color: #28f6c2;
+    padding: 20px 50px;
+    border: 3px solid #28f6c2;
+    position: relative;
+}
+.button::before,
+.button::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+.button::before{
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+.button::after{
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+.button:hover::before,
+.button:hover::after{
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}*/
